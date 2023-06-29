@@ -1,6 +1,6 @@
 # Parallax's Coding Style
 
-## PHP (Laravel Pint)
+## PHP (Laravel Pint)
 
 Here's how to install and apply our PHP coding style:
 
