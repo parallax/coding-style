@@ -2,10 +2,16 @@
 
 ## PHP (Laravel Pint)
 
-Here's how to install and apply our PHP coding style:
+### Install with Composer
 
 ```sh
-composer require --dev parallax/coding-style
+$ composer config repositories.parallax/coding-style vcs https://github.com/parallax/coding-style.git
 
-./vendor/bin/pint --config vendor/parallax/coding-style/pint.json
+$ composer require --dev parallax/coding-style
+```
+
+### Apply the coding style
+
+```sh
+$ ./vendor/bin/pint --config vendor/parallax/coding-style/pint.json
 ```
