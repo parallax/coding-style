@@ -1,0 +1,9 @@
+{
+    "name": "parallax/coding-style",
+    "description": "Parallax's Coding Style",
+    "require-dev": {
+        "laravel/pint": "^1.0"
+    },
+    "minimum-stability": "stable",
+    "license": "MIT"
+}
