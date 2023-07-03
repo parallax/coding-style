@@ -11,6 +11,17 @@
             "trailing_comma_single_line": false
         },
         "method_chaining_indentation": true,
+        "no_trailing_comma_in_singleline": {
+            "elements": [
+                "arguments",
+                "array_destructuring",
+                "array",
+                "group_import"
+            ]
+        },
+        "no_whitespace_before_comma_in_array": {
+            "after_heredoc": false
+        },
         "ordered_imports": {
             "imports_order": null,
             "sort_algorithm": "alpha"
@@ -31,6 +42,10 @@
                 "match",
                 "parameters"
             ]
+        },
+        "trim_array_spaces": true,
+        "whitespace_after_comma_in_array": {
+            "ensure_single_space": true
         }
     }
 }
